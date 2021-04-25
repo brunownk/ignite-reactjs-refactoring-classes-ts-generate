@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 import { Form as Unform } from '@unform/web';
+import { IFood } from '../../hooks/useFoods';
+
+interface IProps {
+  initialData: IFood;
+}
 
 export const Form = styled(Unform)`
   padding: 48px 40px;
